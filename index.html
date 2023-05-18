@@ -15,7 +15,7 @@
     the `--base-href` argument provided to `flutter build`.
   -->
   <!-- 설정 필요 (기본 경로 및 https -> http 통신 설정) -->
-  <base href="/">
+  <base href="/soccer_web/">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta charset="UTF-8">
@@ -44,7 +44,7 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = 'soccer_web/main.dart.js';
+      scriptTag.src = 'main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
